@@ -4,10 +4,10 @@ import time
 from gpiozero import OutputDevice
 
 
-on_start = 75  
-off_start = 45  
+on_start = 75  #the fan will turn on at this temp
+off_start = 45  #the fan will shut off at this temp
 sleep_interval = 5  
-gpio_pin = ''  
+gpio_pin = 'the pin for wich you use to plug in said pi to control fan, other than power'  
 
 def get_temp():
 
